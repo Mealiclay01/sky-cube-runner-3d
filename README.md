@@ -1,65 +1,112 @@
 # Sky Cube Runner 3D
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Platform: iOS](https://img.shields.io/badge/Platform-iOS-0b84ff.svg)](https://developer.apple.com/ios/)
+[![Swift 5.9](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org)
+[![SceneKit](https://img.shields.io/badge/SceneKit-3D%20Engine-6f42c1.svg)](https://developer.apple.com/scenekit/)
+
+**Elevator pitch:** A premium-style iOS endless runner built with SwiftUI + SceneKit, combining neon lanes, responsive controls, and a polished HUD for a client-ready demo.
+
+---
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [How to Run](#how-to-run)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [النسخة العربية](#النسخة-العربية)
+
+---
+
 ## Overview
-Sky Cube Runner 3D is a SwiftUI + SceneKit endless runner built for iOS 17+. Glide through neon lanes, dodge obstacles, and chase daily leaderboards with ghost replays.
+Sky Cube Runner 3D is a SwiftUI + SceneKit endless runner for iOS 17+. It demonstrates a modern UI layer, physics-based collisions, and scalable gameplay systems suitable for showcasing to clients and investors.
 
 ## Features
-- SwiftUI UI with glassmorphism styling and dark mode defaults
-- SceneKit runner loop with physics collisions and SCNView renderer updates
-- Object pooling, spawner, and difficulty scaling over time
-- Scoring system with best score persistence
-- HUD, game over flow, and detailed run summary
-- Settings with audio, haptics, high contrast, debug overlay, and tutorial toggle
-- Debug overlay with FPS, node count, and speed telemetry
+- SwiftUI interface with glassmorphism-inspired HUD.
+- SceneKit runner loop with lane switching and obstacle collisions.
+- Object pooling and difficulty scaling for smooth performance.
+- Local best-score persistence and run summary.
+- Settings for audio, haptics, high contrast, and tutorial toggles.
 
-## Pro Features
-- Daily challenge seed with top-5 leaderboard
-- Ghost replay of your last run
-- Achievements with persistence
-- Tutorial overlay for first-time players
+## Tech Stack
+- **Swift 5.9**
+- **SwiftUI** for UI and navigation
+- **SceneKit** for 3D rendering
+- **UserDefaults** for lightweight persistence
 
-## Project Structure
-```
-SkyCubeRunner3D/
-  SkyCubeRunner3DApp.swift
-  ContentView.swift
-  Views/
-  Game/
-  Resources/
-  Assets.xcassets/
-SkyCubeRunner3DTests/
-screenshots/
-```
-
-## How To Play
-- Swipe left or right to change lanes.
-- Avoid barriers and keep your speed high.
-- Play the daily challenge to compare runs on the same seeded track.
-
-## Settings & Accessibility
-- High contrast toggle enhances HUD legibility.
-- Dynamic Type is supported automatically through SwiftUI.
-- Debug overlay can be enabled to inspect runtime metrics.
-
-## Persistence
-- Best score and settings are stored in `UserDefaults`.
-- Daily leaderboards and achievements persist per device.
-
-## Requirements
-- Xcode 15.0+
-- iOS 17+
-- Swift 5.9
-
-## Setup
-1. Open `SkyCubeRunner3D.xcodeproj` in Xcode.
+## How to Run
+1. Open `SkyCubeRunner3D.xcodeproj` in Xcode 15+.
 2. Select an iOS 17 simulator or device.
-3. Build and run.
+3. Build & Run (`⌘R`).
 
-## Testing
-Run unit tests from Xcode (`⌘U`).
+## Demo
+> **Replace with your uploaded images:** these are external placeholder links. Upload media via GitHub and update URLs as described in [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md).
 
-## Credits
-Created for the Sky Cube Runner 3D prototype. Placeholder assets and audio were generated programmatically.
+**Gameplay GIF (placeholder)**
+
+![Gameplay GIF placeholder](https://placehold.co/960x540/gif?text=Gameplay+GIF+Placeholder)
 
 ## Screenshots
-See `/screenshots` for placeholder captures.
+> **Replace with your uploaded images:** use high-quality gameplay captures.
+
+<table>
+  <tr>
+    <td><img src="https://placehold.co/640x360/png?text=Screenshot+1" alt="Screenshot 1 placeholder" width="320" /></td>
+    <td><img src="https://placehold.co/640x360/png?text=Screenshot+2" alt="Screenshot 2 placeholder" width="320" /></td>
+    <td><img src="https://placehold.co/640x360/png?text=Screenshot+3" alt="Screenshot 3 placeholder" width="320" /></td>
+  </tr>
+</table>
+
+## Roadmap
+- Game Center or Firebase leaderboard integration.
+- Replay system export and shareable clips.
+- Customizable skins, lane themes, and UI modes.
+- Haptics/audio tuning for a premium feel.
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+MIT License. See [LICENSE](LICENSE).
+
+---
+
+# النسخة العربية
+
+<div dir="rtl">
+
+**نبذة مختصرة:** لعبة Sky Cube Runner 3D هي تجربة جري ثلاثية الأبعاد لأجهزة iOS، مبنية بـ SwiftUI وSceneKit، مع واجهة حديثة وتجربة لعب احترافية مناسبة للعرض على العملاء.
+
+## المميزات
+- واجهة SwiftUI بتصميم عصري وHUD أنيق.
+- حلقة لعب ثلاثية الأبعاد مع تبديل المسارات وتفادي العوائق.
+- تحسين الأداء عبر إعادة استخدام العناصر وزيادة الصعوبة تدريجيًا.
+- حفظ أفضل النتائج وعرض ملخص بعد كل جولة.
+- إعدادات للصوت والاهتزاز والتباين العالي وشاشة التعليمات.
+
+## التقنيات المستخدمة
+- Swift 5.9
+- SwiftUI
+- SceneKit
+- UserDefaults
+
+## طريقة التشغيل
+1. افتح `SkyCubeRunner3D.xcodeproj` في Xcode 15 أو أحدث.
+2. اختر جهاز iOS 17.
+3. تشغيل (`⌘R`).
+
+## العرض المرئي (Placeholder)
+> **استبدل الروابط أدناه بصور/GIF حقيقية بعد رفعها على GitHub.**
+
+- GIF اللعب: https://placehold.co/960x540/gif?text=Gameplay+GIF+Placeholder
+- صور الشاشة:
+  - https://placehold.co/640x360/png?text=Screenshot+1
+  - https://placehold.co/640x360/png?text=Screenshot+2
+  - https://placehold.co/640x360/png?text=Screenshot+3
+
+</div>
